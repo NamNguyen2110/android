@@ -3,7 +3,7 @@ git add .
 now=$(date +"%c")
 git commit -m "update project at $now"
 git push
-echo "Pushed to Gitlab repository"
+echo "Pushed to GitHub repository"
 echo "------------------------------------------------------"
 rm -r target
 echo "Deleted target folder"

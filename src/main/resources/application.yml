@@ -4,7 +4,7 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     password: admin
-    url: jdbc:mariadb://150.95.115.214:3307/vsap_database?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    url: jdbc:mariadb://20.36.38.9:3306/fonos?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
     username: root
   jpa:
     hibernate:
