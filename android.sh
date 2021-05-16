@@ -9,7 +9,7 @@ rm -r target
 echo "Deleted target folder"
 echo "------------------------------------------------------"
 docker image rm -f namnguyen2110/android:latest
-mvn install DskipTest=true
+mvn package
 docker build -t namnguyen2110/android:latest .
 echo "Build completed docker image: namnguyen2110/android:latest"
 echo "-------------------------------------------------------"
