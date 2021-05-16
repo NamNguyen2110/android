@@ -1,1 +1,0 @@
-nohup /home/namnguyen/Coding/android/android.sh > service.log 2>&1 &
