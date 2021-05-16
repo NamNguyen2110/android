@@ -18,6 +18,7 @@ public class Book implements Serializable {
     private Integer id;
     private String title;
     private String author;
+    private String coverImage;
     @Lob
     private String image;
     @Lob
@@ -83,5 +84,13 @@ public class Book implements Serializable {
 
     public void setIntro(String intro) {
         this.intro = intro;
+    }
+
+    public String getCoverImage() {
+        return coverImage;
+    }
+
+    public void setCoverImage(String coverImage) {
+        this.coverImage = coverImage;
     }
 }
