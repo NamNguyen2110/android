@@ -19,6 +19,7 @@ public class Book implements Serializable {
     private String title;
     private String author;
     private String coverImage;
+    private String status;
     @Lob
     private String image;
     @Lob
@@ -92,5 +93,13 @@ public class Book implements Serializable {
 
     public void setCoverImage(String coverImage) {
         this.coverImage = coverImage;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

@@ -18,8 +18,13 @@ public class BookController {
     private final BookRepository bookRepo;
 
     @GetMapping("/book/list")
-    private List<Book> getAllBook() {
-        return bookRepo.findAll();
+    private List<Book> getHomePageBook() {
+        return bookRepo.getHomePageBook();
+    }
+
+    @GetMapping("/book/trending")
+    private List<Book> getTrendingBook() {
+        return bookRepo.getTrendingBook();
     }
 
     @GetMapping("/book")
