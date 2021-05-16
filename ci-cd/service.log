@@ -1,14 +1,10 @@
 On branch master
 Your branch is up to date with 'origin/master'.
 
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	new file:   ../original_data/maxresdefault.jpg
-
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   run.sh
+	modified:   android.sh
 	modified:   service.log
 	modified:   ../src/main/java/com/assignment/android/model/Book.java
 
@@ -18,3 +14,4 @@ Untracked files:
 	"../original_data/[Audiobook] \304\220\341\272\241o \304\220\341\273\251c Kinh - L\303\243o T\341\273\255 (Ph\341\272\247n 1).mp3"
 	../original_data/lao-tu-dao-duc-kinh-giai-luan.jpg
 
+no changes added to commit (use "git add" and/or "git commit -a")
