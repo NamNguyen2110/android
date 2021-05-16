@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    password: admin
-    url: jdbc:mariadb://20.36.38.9:3306/fonos?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    password: 123456aA@
+    url: jdbc:mariadb://20.36.46.207:3306/fonos?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
     username: root
   jpa:
     hibernate:
