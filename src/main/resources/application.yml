@@ -17,3 +17,12 @@ spring:
           lob:
             non_contextual_creation: true
     show-sql: true
+minio:
+  access:
+    name: minioadmin
+    secret: minioadmin
+  bucket:
+    name: test
+  default:
+    folder: /
+  url: http://127.0.0.1:9000
