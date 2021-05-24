@@ -25,4 +25,4 @@ minio:
     name: test
   default:
     folder: /
-  url: http://127.0.0.1:9000
+  url: http://40.90.168.71:9000

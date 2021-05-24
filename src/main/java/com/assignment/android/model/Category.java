@@ -22,11 +22,6 @@ public class Category implements Serializable {
             mappedBy = "category", targetEntity = Book.class)
     private Set<Book> books;
 
-    public Category(Integer id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
     @JsonManagedReference
     public Set<Book> getBooks() {
         return books;
