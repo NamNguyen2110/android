@@ -18,7 +18,7 @@ public class MinioService {
     @Autowired
     MinioClient minioClient;
 
-    @Value("${minio.buckek.name}")
+    @Value("${minio.bucket.name}")
     String defaultBucketName;
 
     @Value("${minio.default.folder}")
@@ -45,7 +45,6 @@ public class MinioService {
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());
         }
-
     }
 
     public byte[] getFile(String key) {
